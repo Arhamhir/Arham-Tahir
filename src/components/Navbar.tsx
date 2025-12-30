@@ -19,7 +19,6 @@ export const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
-
       const sections = navLinks.map((link) => link.href.slice(1));
       for (const section of sections.reverse()) {
         const element = document.getElementById(section);
@@ -70,9 +69,14 @@ export const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <Button variant="hero" size="sm">
-            Resume
-          </Button>
+          <a
+            href="https://drive.google.com/file/d/1M_uTXUoJT4Of8xdbjWaaCAXkbMLdtBxK/view?usp=drive_link"
+            target="blank"
+          >
+            <Button variant="hero" size="sm">
+              Resume
+            </Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
