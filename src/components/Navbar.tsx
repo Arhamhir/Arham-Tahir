@@ -70,7 +70,7 @@ export const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://drive.google.com/file/d/1M_uTXUoJT4Of8xdbjWaaCAXkbMLdtBxK/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1tikHcXV-DFB8yc4VAjTlT3EyFb6VuqZT/view?usp=drive_link"
             target="blank"
           >
             <Button variant="hero" size="sm">
